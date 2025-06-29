@@ -16,12 +16,12 @@ export const AboutSection = () => {
 
                    <p className="text-muted-foreground">I'm passionate about creating elegant solutions to complex problems, and I'm constantly learning new technologies and techniques to stay at the forefront of the ever-evolving web landscape.</p>
 
-                   {/* <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-                       <a href="#contact" className="cosmic-button">
-                        Get In Touch</a>
+                   <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+                       {/* <a href="#contact" className="cosmic-button">
+                        Get In Touch</a> */}
 
-                       <a href="#contact" className="px-6 py-2.5 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"> Download CV</a>
-                   </div> */}
+                       <a href="/CV.pdf" target="_blank" rel="noopener noreferrer" className="px-6 py-2.5 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"> Download CV</a>
+                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 gap-6">
@@ -58,7 +58,10 @@ export const AboutSection = () => {
                             </div>
                             <div className="text-left">
                                <h4 className="font-semibold text-lg">Experience</h4>
-                               <p className="text-muted-foreground">React.js Intern – Codtech IT Solutions. Worked on building responsive React.js components. Assisted in integrating frontend with REST APIs. Learned best practices in state management and routing. Collaborated and contributed to real-world projects</p>
+                               <p className="text-muted-foreground">React.js Intern – Codtech IT Solutions. Worked on building responsive React.js components. Assisted in integrating frontend with REST APIs. Learned best practices in state management and routing. Collaborated and contributed to real-world projects
+                               </p>
+                               {/* <a href="https://drive.google.com/file/d/1zdbT99xGtqCBoedpDv3-vZ3xzUlZ3bxQ/view?usp=drive_link" className="text-purple-500  hover:text-purple-800" target="_blank"> See Offer Letter</a>   */}
+                               <a href="/certificate.pdf" className="text-purple-500 pt-5 hover:text-purple-800" target="_blank" rel="noopener noreferrer">Certificate</a>
                             </div>
                         </div>
                     </div>
